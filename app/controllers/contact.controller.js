@@ -97,7 +97,7 @@ exports.delete = async (req, res, next) => {
   }
 };
 
-// 🗑️ Delete all contacts (chuẩn hoá từ ảnh)
+// 🗑️ Delete all contacts 
 exports.deleteAll = async (_req, res, next) => {
   try {
     const contactService = new ContactService(MongoDB.client);
